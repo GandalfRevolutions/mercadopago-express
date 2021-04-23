@@ -26,8 +26,10 @@
                         <hr>
                         <h4>Precio $ 2500</h4>
                         <div>
-                            <form action="">
-                                <input type="submit" value="Comprar Ahora" class="btn btn-primary btn-block">
+                            <form action="http://localhost:3000/checkout" method="POST">
+                            <input type="hidden" name="title" value="Remera">
+                            <input type="hidden" name="price" value="2500">
+                            <input type="submit" value="Comprar Ahora" class="btn btn-primary btn-block">
                             </form>
                         </div>
                         <br><br><br>
